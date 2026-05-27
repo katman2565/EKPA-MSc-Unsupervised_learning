@@ -40,6 +40,7 @@
 - οπτικοποίηση clusters
 - ερμηνεία και τίτλους για clusters
 
+---
 ### 4. Topic Modeling
 
 Αυτό το notebook εφαρμόζει topic modeling σε συλλογή κειμένων με τη μέθοδο Latent Dirichlet Allocation (LDA).
