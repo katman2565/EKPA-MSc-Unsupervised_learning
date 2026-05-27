@@ -1,13 +1,13 @@
-## Μη επιβλεπόμενη μάθηση (unsupervised learning - συνάντηση 14/5/2026)
+### Μη επιβλεπόμενη μάθηση (unsupervised learning - συνάντηση 14/5/2026)
 
 Αυτός ο φάκελος περιλαμβάνει βασικά notebooks για μη επιβλεπόμενη μάθηση σχετικά με: προετοιμασία και καθαρισμό δεδομένων, ανάλυση με NLP, sentence embeddings και clustering.
 
 ---
 
-### 1. Cleaning (με παραδειγματα από Le Monde Articles & Le Monde Comments)
+#### 1. Cleaning (με παραδειγματα από Le Monde Articles & Le Monde Comments)
 
-Τα notebooks καθαρίζουν τα datasets με τα άρθρα και τα σχόλια της Le Monde.
-Περιλαμβάνουν:
+"Καθαρισμός" datasets. 
+
 - βασικό έλεγχο του dataset
 - επιλογή χρήσιμων στηλών
 - ήπιο καθαρισμό κειμένου
@@ -15,7 +15,7 @@
 - προετοιμασία των άρθρων για επόμενα βήματα NLP
 
 ---
-### 2. Sentencize
+#### 2. Sentencize
 
 Αυτό το notebook χωρίζει τα κείμενα σε προτάσεις.
 
@@ -28,9 +28,9 @@
 Κάθε γραμμή του νέου dataset αντιστοιχεί σε μία πρόταση.
 
 ---
-### 3. Clustering
+#### 3. Clustering
 
-Αυτό το notebook εφαρμόζει semantic clustering στις προτάσεις.
+Δοκιμές με semantic clustering στις προτάσεις.
 
 Περιλαμβάνει:
 - δημιουργία sentence embeddings
@@ -41,9 +41,9 @@
 - ερμηνεία και τίτλους για clusters
 
 ---
-### 4. Topic Modeling
+#### 4. Topic Modeling
 
-Αυτό το notebook εφαρμόζει topic modeling σε συλλογή κειμένων με τη μέθοδο Latent Dirichlet Allocation (LDA).
+Εδώ εφαρμόζουμε topic modeling σε συλλογή κειμένων με τη μέθοδο Latent Dirichlet Allocation (LDA).
 
 Περιλαμβάνει:
 - preprocessing και καθαρισμό κειμένων
