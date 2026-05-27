@@ -4,7 +4,7 @@
 
 ---
 
-### 1. Cleaning Le Monde Articles & Cleaning Le Monde Comments
+### 1. Cleaning (με παραδειγματα από Le Monde Articles & Le Monde Comments)
 
 Τα notebooks καθαρίζουν τα datasets με τα άρθρα και τα σχόλια της Le Monde.
 Περιλαμβάνουν:
