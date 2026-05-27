@@ -40,10 +40,16 @@
 - οπτικοποίηση clusters
 - ερμηνεία και τίτλους για clusters
 
----
-## Προτεινόμενη σειρά χρήσης
+### 4. Topic Modeling
 
-1. Cleaning Le Monde Articles  
-2. Cleaning Le Monde Comments  
-3. Sentencize  
-4. Clustering
+Αυτό το notebook εφαρμόζει topic modeling σε συλλογή κειμένων με τη μέθοδο Latent Dirichlet Allocation (LDA).
+
+Περιλαμβάνει:
+- preprocessing και καθαρισμό κειμένων
+- tokenization και αφαίρεση stopwords
+- δημιουργία bigrams
+- δημιουργία Bag-of-Words corpus
+- εκπαίδευση μοντέλου LDA
+- αξιολόγηση με coherence και perplexity
+- επιλογή αριθμού topics
+- οπτικοποιήσεις
